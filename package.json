@@ -1,0 +1,16 @@
+{
+  "name": "cicd-lab",
+  "version": "1.0.0",
+  "description": "A simple web page lab.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "htmlhint index.html",
+    "start": "open index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "htmlhint": "^1.1.4"
+  }
+}
