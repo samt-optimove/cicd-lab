@@ -1,0 +1,17 @@
+name: CI Pipeline
+
+on:
+  push
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Lint Check
+        run: npm run lint
